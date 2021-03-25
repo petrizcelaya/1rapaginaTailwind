@@ -3,7 +3,9 @@
 @import "tailwindcss/utilities";
 
 .toggle-checkbox:checked {
-    @apply border-indigo-600 right-0 bg-white;
+    @apply border-indigo-600;
+    @apply right-0; 
+    @apply bg-white;
   }
   .toggle-checkbox:checked + .toggle-label {
     @apply bg-indigo-800;
