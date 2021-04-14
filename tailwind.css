@@ -10,3 +10,7 @@
   .toggle-checkbox:checked + .toggle-label {
     @apply bg-indigo-800;
   }
+
+  .itemsNav {
+    @apply block lg:inline-block bg-indigo-200 hover:bg-indigo-800 rounded-full lg:bg-transparent px-4 py-2 font-medium text-gray-800 lg:text-white
+  }
